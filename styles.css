@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 29, 44);
+    text-align: center;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: seashell;
+    font-size: 70px;
+    margin: 60px auto;
+}
+
+#levelcounter{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: seashell;
+    font-size: 50px;
+}
+#wordlevel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: seashell;
+    font-size: 70px;
+    margin: 40px auto;
+    display: block;
+    height: 200px;
+    letter-spacing: 30px;
+    background-color: black;
+    padding-top: 50px;
+   
+}
+
+#announce{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: seashell;
+    font-size: 30px;
+}
+
+#playCardContainer{
+    display: block;
+    margin: 30px auto;
+    height: 200px ;
+    text-align: center;
+}
+
+.box{
+    margin: 10px;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 5%;
+    background-color: teal;
+    border: 5px solid white;
+    text-align: center;
+    
+}
+
+.box h4{
+    transform: translateY(-55%);
+    position: relative;
+    top: 50%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(241, 236, 232);
+    font-size: 180px;
+
+}
+
+.closedBox{
+    margin: 10px;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 5%;
+    background-color: rgb(201, 90, 0);
+    border: 5px solid white;
+   
+}
+
+.closedBox h4{
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:rgb(201, 90, 0) ;
+    font-size: 180px;
+
+}
