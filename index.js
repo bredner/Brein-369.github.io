@@ -12,5 +12,5 @@ app.get('/git-demo', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port} || laurensius-ftlive-brank-as.solutions.staging.apix.global`);
+  console.log(`Server is running on http://localhost:${port} || laurensius-ftlive-brank-as.solutions.staging.apix.global` || 'laurensius-ftlive-brank-as-1411.solutions.apixplatform.com');
 });
