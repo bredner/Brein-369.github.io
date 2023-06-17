@@ -2,7 +2,7 @@
 
 ## simple memory game
 
-how to run the game:
+### how to run the game:
 clone the game
 go to the clone folder
 run "npm i"
