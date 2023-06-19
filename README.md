@@ -7,3 +7,4 @@
 - go to the clone folder
 - run "npm i"
 - run "node index.js"
+- add somehting on readme
